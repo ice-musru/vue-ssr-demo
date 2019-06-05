@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <h1>竟然好了!!!!</h1>
-    <div>123456</div>
+    <div class="text">123456</div>
     <img src="./assets/logo.png">
     <router-view/>
   </div>
@@ -17,6 +17,11 @@ export default {
 h1{
   color:red;
   font-size: 58px;
+}
+.text{
+  color: green;
+  font-size: 36px;
+  font-weight: bold;
 }
 #app {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
